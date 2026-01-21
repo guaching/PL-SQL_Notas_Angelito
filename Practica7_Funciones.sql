@@ -9,3 +9,6 @@ BEGIN
     dia_semana := TO_CHAR(fecha_nacimiento, 'DAY');
     DBMS_OUTPUT.PUT_LINE(dia_semana);
 END;
+
+
+
